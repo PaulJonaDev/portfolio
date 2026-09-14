@@ -24,14 +24,4 @@ npm run build
 npm run preview   # sirve la carpeta dist/ localmente para verificar
 ```
 
-## Antes de publicar
-
-1. Reemplaza `public/resume-jonathan-paul.pdf` por tu CV real (mismo nombre
-   de archivo, o actualiza `resumeFile` en `src/data/profile.js`).
-2. Revisa `src/data/profile.js` y `src/data/projects.js`: son los únicos
-   archivos que deberías tocar para mantener el contenido actualizado.
-3. Verifica el enlace de LinkedIn: el CV y el README traían dos URLs
-   distintas (`/in/pauljonadev` vs. `/in/jonathan-paul-caraballo`);
-   confirma cuál es la vigente en `src/data/profile.js`.
-
 Ver `DEPLOY.md` para el paso a paso de publicación en GitHub Pages.
