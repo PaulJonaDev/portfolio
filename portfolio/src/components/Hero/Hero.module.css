@@ -1,0 +1,117 @@
+.hero {
+  padding-top: var(--sp-8);
+  overflow: hidden;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: var(--sp-7);
+  align-items: center;
+  padding-bottom: var(--sp-8);
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--fs-100);
+  color: var(--color-ink-soft);
+  margin-bottom: var(--sp-3);
+}
+
+.headline {
+  font-size: var(--fs-800);
+  letter-spacing: -0.02em;
+  max-width: 14ch;
+}
+
+.role {
+  margin-top: var(--sp-4);
+  color: var(--color-accent);
+  font-family: var(--font-mono);
+  font-size: var(--fs-300);
+}
+
+.summary {
+  margin-top: var(--sp-5);
+  max-width: 54ch;
+  color: var(--color-ink-muted);
+}
+
+.ctas {
+  display: flex;
+  gap: var(--sp-4);
+  margin-top: var(--sp-7);
+}
+
+.primaryCta {
+  background: var(--color-accent);
+  color: var(--color-accent-ink);
+  padding: var(--sp-3) var(--sp-5);
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+}
+
+.secondaryCta {
+  background: none;
+  border: 1px solid var(--color-border);
+  color: var(--color-ink);
+  padding: var(--sp-3) var(--sp-5);
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+}
+
+.widgetColumn {
+  display: flex;
+  justify-content: center;
+}
+
+.marquee {
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  overflow: hidden;
+  padding: var(--sp-4) 0;
+}
+
+.marqueeTrack {
+  display: flex;
+  gap: var(--sp-7);
+  width: max-content;
+  animation: scroll 28s linear infinite;
+}
+
+.marqueeItem {
+  font-family: var(--font-mono);
+  font-size: var(--fs-200);
+  color: var(--color-ink-soft);
+  white-space: nowrap;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marqueeTrack {
+    animation: none;
+  }
+}
+
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .headline {
+    font-size: var(--fs-700);
+    max-width: none;
+  }
+
+  .widgetColumn {
+    justify-content: flex-start;
+  }
+}

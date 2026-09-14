@@ -1,0 +1,119 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 11, 15, 0.6);
+  display: grid;
+  place-items: center;
+  padding: var(--sp-5);
+  z-index: 100;
+}
+
+.modal {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  padding: var(--sp-7);
+  width: min(480px, 100%);
+  box-shadow: var(--shadow-modal);
+  position: relative;
+}
+
+.closeButton {
+  position: absolute;
+  top: var(--sp-4);
+  right: var(--sp-4);
+  background: none;
+  border: none;
+  font-size: var(--fs-400);
+  color: var(--color-ink-soft);
+}
+
+.title {
+  font-size: var(--fs-500);
+}
+
+.subtitle {
+  color: var(--color-ink-muted);
+  margin-top: var(--sp-2);
+  font-size: var(--fs-200);
+}
+
+.form {
+  margin-top: var(--sp-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  font-size: var(--fs-200);
+  color: var(--color-ink-muted);
+}
+
+.field input,
+.field textarea {
+  font-family: var(--font-body);
+  font-size: var(--fs-300);
+  color: var(--color-ink);
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: var(--sp-3);
+  resize: vertical;
+}
+
+.field input[aria-invalid="true"],
+.field textarea[aria-invalid="true"] {
+  border-color: var(--color-warn);
+}
+
+.error {
+  color: var(--color-warn);
+  font-size: var(--fs-100);
+}
+
+.formActions {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-5);
+  margin-top: var(--sp-2);
+}
+
+.submitButton {
+  background: var(--color-accent);
+  color: var(--color-accent-ink);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: var(--sp-3) var(--sp-5);
+  font-weight: 500;
+}
+
+.submitButton:disabled {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.mailtoLink {
+  font-size: var(--fs-200);
+  color: var(--color-ink-muted);
+}
+
+.successState {
+  padding-top: var(--sp-5);
+}
+
+.successTitle {
+  font-size: var(--fs-500);
+  color: var(--color-success);
+  margin-bottom: var(--sp-3);
+}
+
+.secondaryAction {
+  margin-top: var(--sp-6);
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: var(--sp-2) var(--sp-4);
+}

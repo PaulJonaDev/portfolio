@@ -1,0 +1,121 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: color-mix(in srgb, var(--color-bg) 88%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--fs-400);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  color: var(--color-accent);
+}
+
+.links {
+  display: flex;
+  gap: var(--sp-6);
+  font-size: var(--fs-200);
+  color: var(--color-ink-muted);
+}
+
+.links a:hover {
+  color: var(--color-ink);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+}
+
+.themeToggle {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  font-size: var(--fs-300);
+}
+
+.cvButton {
+  font-size: var(--fs-200);
+  font-weight: 500;
+  color: var(--color-accent-ink);
+  background: var(--color-accent);
+  padding: 8px var(--sp-4);
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+.menuToggle {
+  display: none;
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  width: 36px;
+  height: 36px;
+}
+
+.mobileActions {
+  display: none;
+}
+
+@media (max-width: 860px) {
+  .links {
+    display: none;
+  }
+
+  .actions .cvButton {
+    display: none;
+  }
+
+  .menuToggle {
+    display: grid;
+    place-items: center;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .navOpen {
+    display: block;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    right: 0;
+    background: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+    padding: var(--sp-5);
+  }
+
+  .navOpen .links {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-4);
+    font-size: var(--fs-400);
+    margin-bottom: var(--sp-5);
+  }
+
+  .mobileActions {
+    display: block;
+  }
+}

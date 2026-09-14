@@ -1,0 +1,50 @@
+.board {
+  background: var(--color-ink);
+  color: var(--color-bg);
+  border-radius: var(--radius-lg);
+  padding: var(--sp-6);
+  width: min(320px, 100%);
+  box-shadow: var(--shadow-modal);
+  font-family: var(--font-mono);
+}
+
+.boardHeader {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--fs-100);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.7;
+}
+
+.liveTag {
+  color: var(--color-warn);
+}
+
+.state {
+  margin-top: var(--sp-5);
+  font-size: var(--fs-200);
+  opacity: 0.75;
+}
+
+.code {
+  font-family: var(--font-display);
+  font-size: var(--fs-700);
+  font-weight: 700;
+  margin: var(--sp-1) 0 var(--sp-6);
+  letter-spacing: -0.02em;
+}
+
+.footerRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: var(--sp-4);
+  font-size: var(--fs-200);
+}
+
+.timer {
+  color: var(--color-warn);
+  font-variant-numeric: tabular-nums;
+}

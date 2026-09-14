@@ -1,0 +1,66 @@
+.section {
+  padding: var(--sp-9) 0;
+  border-top: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: var(--sp-7);
+  flex-wrap: wrap;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--fs-100);
+  color: var(--color-accent);
+  margin-bottom: var(--sp-3);
+}
+
+.title {
+  font-size: var(--fs-700);
+  max-width: 12ch;
+}
+
+.copy {
+  margin-top: var(--sp-4);
+  color: var(--color-ink-muted);
+  max-width: 42ch;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--sp-4);
+}
+
+.primaryButton {
+  background: var(--color-accent);
+  color: var(--color-accent-ink);
+  border: none;
+  padding: var(--sp-4) var(--sp-6);
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+  font-size: var(--fs-300);
+}
+
+.links {
+  display: flex;
+  gap: var(--sp-5);
+  color: var(--color-ink-muted);
+  font-size: var(--fs-200);
+}
+
+.links a:hover {
+  color: var(--color-accent);
+}
+
+@media (max-width: 640px) {
+  .title {
+    font-size: var(--fs-600);
+    max-width: none;
+  }
+}

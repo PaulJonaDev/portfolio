@@ -1,0 +1,83 @@
+/*
+  TOKENS DE DISEÑO
+  ----------------
+  Paleta pensada para un desarrollador Full Stack (Java + React):
+  - Índigo eléctrico (#3452FF): color de "código", enlaces y foco.
+  - Ámbar (#FF7A45): único acento cálido, reservado para el widget
+    de "turno" del Hero y para estados activos puntuales.
+  - El resto de la interfaz es neutra a propósito para que esos dos
+    colores destaquen sin competir entre sí.
+*/
+
+:root {
+  /* Color base (tema claro) */
+  --color-bg: #f5f6f8;
+  --color-surface: #ffffff;
+  --color-surface-raised: #ffffff;
+  --color-border: #e1e4ea;
+  --color-ink: #14171f;
+  --color-ink-muted: #5b6270;
+  --color-ink-soft: #868d9c;
+
+  --color-accent: #3452ff;
+  --color-accent-ink: #ffffff;
+  --color-accent-soft: #e8ecff;
+  --color-warn: #ff7a45;
+  --color-warn-soft: #ffe9de;
+  --color-success: #1f9d63;
+
+  --shadow-card: 0 1px 2px rgba(20, 23, 31, 0.04);
+  --shadow-modal: 0 24px 48px rgba(20, 23, 31, 0.24);
+
+  /* Tipografía */
+  --font-display: "Space Grotesk", "Segoe UI", sans-serif;
+  --font-body: "Inter", "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+
+  --fs-100: 0.75rem;
+  --fs-200: 0.875rem;
+  --fs-300: 1rem;
+  --fs-400: 1.125rem;
+  --fs-500: 1.5rem;
+  --fs-600: 2rem;
+  --fs-700: 2.75rem;
+  --fs-800: 3.75rem;
+
+  /* Espaciado (escala de 4px) */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-7: 3rem;
+  --sp-8: 4.5rem;
+  --sp-9: 7rem;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+
+  --max-width: 1120px;
+  --transition: 180ms ease;
+}
+
+[data-theme="dark"] {
+  --color-bg: #0e1016;
+  --color-surface: #171a22;
+  --color-surface-raised: #1d212b;
+  --color-border: #2a2f3b;
+  --color-ink: #eceef3;
+  --color-ink-muted: #a4abba;
+  --color-ink-soft: #6c7385;
+
+  --color-accent: #5d7bff;
+  --color-accent-ink: #0e1016;
+  --color-accent-soft: #1c2440;
+  --color-warn: #ff8f61;
+  --color-warn-soft: #2c1d16;
+  --color-success: #3ec987;
+
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-modal: 0 24px 48px rgba(0, 0, 0, 0.55);
+}

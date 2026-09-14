@@ -1,0 +1,43 @@
+.section {
+  padding: var(--sp-8) 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.filters {
+  display: flex;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+  margin-bottom: var(--sp-6);
+}
+
+.filterButton {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding: 6px var(--sp-4);
+  font-size: var(--fs-200);
+  color: var(--color-ink-muted);
+  transition: all var(--transition);
+}
+
+.filterButton:hover {
+  border-color: var(--color-accent);
+  color: var(--color-ink);
+}
+
+.filterButtonActive {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-accent-ink);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.empty {
+  color: var(--color-ink-soft);
+  padding: var(--sp-6) 0;
+}
