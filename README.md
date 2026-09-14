@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://pauljonadev.github.io/portfolio/" target="_blank">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Jonathan%20David%20Paul&fontSize=60&fontAlignY=35&desc=Portafolio%20Profesional%20%7C%20React%20%2B%20Vite&descAlignY=55&descAlign=50" alt="Banner Portafolio" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Jonathan%20David%20Paul&fontSize=60&fontAlignY=35&desc=Portafolio%20Profesional%20%7C%20React%20%2B%20Java&descAlignY=55&descAlign=50" alt="Banner Portafolio" />
   </a>
 
   **Transformando ideas en experiencias digitales rápidas y escalables.**
