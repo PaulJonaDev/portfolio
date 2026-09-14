@@ -6,7 +6,7 @@ export const profile = {
   initials: "JP",
   role: "Desarrollador Full Stack Jr. · Java & React",
   location: "Bogotá, Colombia",
-  tagline: "Construyo interfaces web reales, no solo maquetas.",
+  tagline: "Construyo interfaces web reales, no solo Plantillas.",
   summary:
     "Tecnólogo en Programación de Software con experiencia práctica creando y desplegando aplicaciones web. Especializado en interfaces con React, JavaScript, HTML5 y CSS3; en el backend trabajo con Java, Node.js y APIs REST, además de bases de datos relacionales y no relacionales.",
   email: "jonathancaraballo.e@gmail.com",
