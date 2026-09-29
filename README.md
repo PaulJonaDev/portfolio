@@ -17,7 +17,6 @@
 Para evaluar el diseño interactivo y la implementación final, accede a los siguientes enlaces:
 
 *   **Despliegue en Vivo (GitHub Pages):** [https://pauljonadev.github.io/portfolio/](https://pauljonadev.github.io/portfolio/)
-*   **Diseño UI/UX (Figma):** [https://www.figma.com/design/ZT30uAT8oIzZnkgBaId9gg/Portfolio?node-id=0-1&p=f&t=aerIqMZzppmoX3A1-0](https://www.figma.com/design/ZT30uAT8oIzZnkgBaId9gg/Portfolio?node-id=0-1&p=f&t=aerIqMZzppmoX3A1-0)
 
 ---
 
