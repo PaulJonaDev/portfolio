@@ -63,6 +63,7 @@
 .widgetColumn {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .marquee {

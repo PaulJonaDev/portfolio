@@ -13,7 +13,7 @@ export const profile = {
   phone: "+57 304 403 5245",
   linkedin: "https://www.linkedin.com/in/pauljonadev",
   github: "https://github.com/PaulJonaDev",
-  resumeFile: "/resume-jonathan-paul.pdf",
+  resumeFile: "/CV-Jonathan.Paul.pdf",
   availability: "Disponible para nuevas oportunidades",
   currentlyLearning: [
     "React avanzado",

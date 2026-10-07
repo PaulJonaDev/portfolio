@@ -19,8 +19,9 @@ export default function Navbar({ onOpenContact }) {
   return (
     <header className={styles.header}>
       <div className={`container ${styles.inner}`}>
-        <a href="#inicio" className={styles.logo} onClick={closeMenu}>
-          {profile.initials}
+                <a href="#inicio" className={styles.logo} onClick={closeMenu}>
+          <span className={styles.logoMark}>{profile.shortName}</span>
+          
         </a>
 
         <nav className={`${styles.nav} ${isMenuOpen ? styles.navOpen : ""}`}>

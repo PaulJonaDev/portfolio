@@ -1,6 +1,7 @@
 import { profile } from "../../data/profile";
 import TurnDisplay from "../shared/TurnDisplay";
 import styles from "./Hero.module.css";
+import HeroMascot from "./HeroMascot";
 
 const STACK = ["React", "JavaScript", "Java", "Node.js", "HTML5", "CSS3", "SQL", "Git"];
 
@@ -25,6 +26,7 @@ export default function Hero({ onOpenContact }) {
         </div>
 
         <div className={styles.widgetColumn}>
+          <HeroMascot />
           <TurnDisplay />
         </div>
       </div>

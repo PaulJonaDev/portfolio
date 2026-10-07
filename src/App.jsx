@@ -8,9 +8,7 @@ import Contact from "./components/Contact/Contact";
 import ContactModal from "./components/Contact/ContactModal";
 import Footer from "./components/Footer/Footer";
 
-// El estado del modal de contacto vive aquí porque tres componentes
-// distintos necesitan poder abrirlo (Navbar, Hero y Contact).
-// Es "levantar el estado" (lifting state up) al ancestro común más cercano.
+
 export default function App() {
   const [isContactOpen, setIsContactOpen] = useState(false);
 

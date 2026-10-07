@@ -1,0 +1,59 @@
+.mascot {
+  position: absolute;
+  top: -146px;
+  right: -10px;
+  width: 150px;
+  z-index: 2;
+  pointer-events: none;
+  filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.25));
+}
+
+/* Rebote suave, como si respirara */
+.bob {
+  transform-origin: center bottom;
+  animation: bob 3.2s ease-in-out infinite;
+}
+
+@keyframes bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+/* Saludo: gira el brazo desde el hombro, en ráfagas, no todo el tiempo */
+.wavingArm {
+  transform-origin: 138px 150px;
+  animation: wave 4s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0%, 20%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-18deg); }
+  30% { transform: rotate(0deg); }
+  35% { transform: rotate(-18deg); }
+  40% { transform: rotate(0deg); }
+}
+
+/* Parpadeo */
+.eyes {
+  animation: blink 4.5s infinite;
+  transform-origin: 100px 92px;
+}
+
+@keyframes blink {
+  0%, 92%, 100% { transform: scaleY(1); }
+  95% { transform: scaleY(0.1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bob, .wavingArm, .eyes {
+    animation: none;
+  }
+}
+
+@media (max-width: 860px) {
+  .mascot {
+    width: 100px;
+    top: -45px;
+    right: 0;
+  }
+}

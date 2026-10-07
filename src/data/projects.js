@@ -24,22 +24,9 @@ export const projects = [
     ],
     tags: ["HTML", "CSS", "JavaScript"],
     filters: ["frontend"],
-    links: { github: "https://github.com/PaulJonaDev", demo: null },
+    links: { github: "https://github.com/PaulJonaDev/TurnoSalud.git", demo: null },
   },
-  {
-    id: "visioncheck-ai",
-    name: "VisionCheck AI",
-    period: "Proyecto Full Stack",
-    description:
-      "Aplicación Full Stack enfocada en apoyar procesos de salud visual mediante una interfaz web conectada a servicios propios.",
-    highlights: [
-      "Interfaz en React consumiendo una API construida con Node.js y Express.",
-      "Separación clara entre capa de presentación y lógica de servicios.",
-    ],
-    tags: ["React", "Node.js", "Express", "JavaScript"],
-    filters: ["fullstack"],
-    links: { github: "https://github.com/PaulJonaDev", demo: null },
-  },
+ 
   {
     id: "tucancha",
     name: "TuCancha",
@@ -53,34 +40,34 @@ export const projects = [
     ],
     tags: ["Java", "REST API", "Bootstrap", "Git"],
     filters: ["java", "fullstack"],
-    links: { github: "https://github.com/PaulJonaDev", demo: null },
+    links: { github: "https://github.com/PaulJonaDev/APP_TuCancha.git", demo: null },
   },
   {
-    id: "smartassist-ai",
-    name: "SmartAssist AI",
+    id: "BankingSystem",
+    name: "BankingSystem",
     period: "Proyecto académico · Sep 2025",
     description:
-      "Chatbot inteligente construido con Python y Flask que integra APIs de IA generativa para automatizar la atención al usuario.",
+      "Sistema de gestión bancaria construido con Java y Spring Boot que integra funcionalidades de seguridad y transacciones financieras.",
     highlights: [
-      "Optimización del procesamiento de consultas: +70% de precisión en respuestas automatizadas.",
-      "Backend en Flask desacoplado del motor de generación de respuestas.",
+      "El proyecto modela las operaciones del Banco Nacional Andino, gestionando tres tipos específicos de productos financieros con reglas de negocio particulares para comisiones y retiros",
+      
     ],
-    tags: ["Python", "Flask", "IA Generativa"],
-    filters: ["ia"],
-    links: { github: "https://github.com/PaulJonaDev", demo: null },
+    tags: ["Java", "Spring Boot", "REST API"],
+    filters: ["java", "fullstack"],
+    links: { github: "https://github.com/PaulJonaDev/BankingSystem.git", demo: null },
   },
   {
-    id: "taskflow-mobile",
-    name: "TaskFlow Mobile",
-    period: "Proyecto académico · Jun 2024",
+    id: "Orvian",
+    name: "Orvian",
+    period: "Proyecto académico · Jun 2026",
     description:
       "Aplicación móvil de gestión de tareas y recordatorios con almacenamiento local, diseñada con foco en experiencia de usuario.",
     highlights: [
-      "Almacenamiento local con SQLite y tiempos de respuesta inferiores a 2 segundos.",
-      "Arquitectura orientada a UX/UI desde el primer wireframe.",
+      "Web interactiva desarrollada con HTML5, CSS3/Bootstrap y JavaScript ES6+ (POO) para crear, organizar y eliminar tareas. Cuenta con diseño adaptativo (responsive) y persistencia de datos local en el navegador a través de localStorage",
+      
     ],
-    tags: ["Flutter", "SQLite"],
+    tags: ["html,css", "javascript", "bootstrap,POO"],
     filters: ["mobile"],
-    links: { github: "https://github.com/PaulJonaDev", demo: null },
+    links: { github: "https://github.com/PaulJonaDev/Orvian.git", demo: null },
   },
 ];
