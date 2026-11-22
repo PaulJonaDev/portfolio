@@ -16,8 +16,6 @@
 
 
 *   **Despliegue en Vivo (GitHub Pages):** [https://pauljonadev.github.io/portfolio/](https://pauljonadev.github.io/portfolio/)
-<<<<<<< HEAD
-======
 
 
 ## ⚡ Requisitos Previos
